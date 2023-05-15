@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+}
+
+:root {
+  --text-color: #0f172a;
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+}
+
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: #1c1c1c;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(132, 58, 222, 1) 0%,
+    rgba(184, 84, 232, 1) 100%
+  );
+  border-radius: 3rem;
+  border: none;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(184, 84, 232, 1) 0%,
+    rgba(132, 58, 222, 1) 100%
+  );
+}
+
+.App {
+  text-align: center;
+  padding-top: 3rem;
+  display: grid;
+  place-content: center;
+}
+
+.App h1 {
+  margin-bottom: 2rem;
+}
