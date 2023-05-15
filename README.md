@@ -1,7 +1,7 @@
 <h1 align="center">React Quiz</h1>
 
 <p align="center">
-    Quiz developed with React using useContext.
+    Quiz desenvolvido com React utilizando useContext.
 </p>
 
 <p align="center">
